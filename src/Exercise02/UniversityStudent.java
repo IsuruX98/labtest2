@@ -1,3 +1,4 @@
+package Exercise02;
 public class UniversityStudent implements Student{
 
     private String fullName;
