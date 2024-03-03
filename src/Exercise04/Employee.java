@@ -1,8 +1,13 @@
 package Exercise04;
 
-// Employee.java
-abstract class Employee {
-    String description;
+public abstract class Employee {
+
+    private String description = "General Employee Details";
+
     abstract double getSalary();
+
+    public String getDescription(){
+        return description;
+    }
 }
 

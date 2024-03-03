@@ -1,14 +1,12 @@
 package Exercise04;
 
-// Manager.java
-class Manager extends Employee {
-    Manager() {
-        description = "Manager";
-    }
+public class Manager extends Employee {
+
+    double salary = 80000;
 
     @Override
     double getSalary() {
-        return 80000.0;
+        return salary;
     }
 }
 

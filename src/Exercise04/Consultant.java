@@ -1,13 +1,11 @@
 package Exercise04;
 
-// Consultant.java
-class Consultant extends Employee {
-    Consultant() {
-        description = "Consultant";
-    }
+public class Consultant extends Employee {
+
+    double salary = 70000;
 
     @Override
     double getSalary() {
-        return 70000.0;
+        return salary;
     }
 }
